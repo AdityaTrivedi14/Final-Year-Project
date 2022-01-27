@@ -1,1 +1,2 @@
-console.log("GIT")
+console.log("GIT");
+alert("changes are being committed");
