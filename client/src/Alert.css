@@ -1,0 +1,79 @@
+.dialog_content{
+    width:550px;
+    padding:20px;
+}
+.dialog_title{
+  font-size:20px;
+  font-family: 'Google Sans',Roboto,Arial,sans-serif;
+  color:#202124;
+  font-weight:"400";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom:10px;
+
+}
+
+.dialog_row{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:1px solid #F4F9F9 ;
+}
+
+.dialog_row_in{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.dialog_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dialog_footer_left{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dialog_button{
+    font-size: 15px;
+    color:"green";
+}
+.dialog_tab_panels{
+    display:flex;
+    flex-direction: column;
+}
+.tab_two{
+    display:flex;
+    flex-direction:"column";
+ 
+}
+.tab_text{
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 16px;
+
+    font-weight: 500;
+    letter-spacing: .1px;
+    line-height: 24px;
+    color: #202124;
+}
+
+.tab_input{
+    outline:none;
+    border:none;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    width:100%;
+    color: #202124;
+    border-bottom:2px solid rgb(103, 58, 183);
+    margin-bottom:16px;
+}
