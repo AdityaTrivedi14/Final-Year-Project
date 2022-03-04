@@ -1,44 +1,48 @@
-.form_header{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    margin:5px 15px;
-    background-color: #fff;
+.form_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+  background-color: #333333;
 }
 
-.form_header_left{
-    display:flex;
-    align-items: center;
-    justify-content: space-evenly;
+.MuiTabs-root {
+  background-color: #333333;
+}
+.MuiButton-containedPrimary {
+  background: linear-gradient(45deg, #3f7e05, #b4f74c) !important;
+  /* color: #0e1015 !important; */
 }
 
-.form_name{
-  border:none;
-  outline:none;
-  font-family: 'Google Sans',Roboto,Arial,sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-left:15px;
-    color: #202124;
-    width:120px;
+.form_header_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.form_header_icon{
-    color: #202124;
-    font-size: 20px;
-   
+.form_name {
+  border: none;
+  outline: none;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 15px;
+  color: #fff;
+  width: 120px;
 }
 
-
-
-
-.form_name:focus{
-    border-bottom: 1px solid black;
+.form_header_icon {
+  color: #fff;
+  font-size: 20px;
 }
 
-.form_header_right{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
+.form_name:focus {
+  border-bottom: 1px solid black;
+}
+
+.form_header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
