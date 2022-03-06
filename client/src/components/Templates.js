@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "./Templates.css";
-import blank from "./blank.svg";
+import "../css/Templates.css";
+import blank from "../assets/blank.svg";
 import { useNavigate } from "react-router-dom";
 import uuid from "react-uuid";
 import axios from "axios";

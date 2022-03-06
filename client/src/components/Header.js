@@ -1,10 +1,9 @@
 import { IconButton } from "@material-ui/core";
-import MenuIcon from "@material-ui/icons/Menu";
 import React from "react";
-import "./Header.css";
-import Logo from "./Group1.svg";
+import "../css/Header.css";
+import Logo from "../assets/logo1.svg";
 import Avatar from "@material-ui/core/Avatar";
-import avatarimage from "./2.jpg";
+import avatarimage from "../assets/2.jpg";
 
 function Header() {
   return (
@@ -12,6 +11,7 @@ function Header() {
       <div className="header_info">
         <img
           src={Logo}
+          alt="OEXP"
           style={{ height: "40px", width: "40px" }}
           className="form_image"
         />

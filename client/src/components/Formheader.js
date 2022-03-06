@@ -1,17 +1,17 @@
 import React from "react";
-import logo from "./Group1.svg";
+import logo from "../assets/logo1.svg";
 import { AiOutlineEye } from "react-icons/ai";
 import { IconButton } from "@material-ui/core";
-import avatarimage from "./2.jpg";
+import avatarimage from "../assets/2.jpg";
 // import { IoMdFolderOpen } from "react-icons/io";
 
 // import Button from "@material-ui/core/Button";
 import Avatar from "@material-ui/core/Avatar";
 
-import "./Formheader.css";
+import "../css/Formheader.css";
 import { useNavigate } from "react-router-dom";
 // import { useStateValue } from "./StateProvider";
-import AlertDialog from "./Alert";
+import AlertDialog from "../Alert";
 
 function Formheader() {
   const navigate = useNavigate();

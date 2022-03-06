@@ -1,12 +1,11 @@
 import React from "react";
-//import {BrowserRouter as Router ,Switch, Route} from "react-router-dom";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Formheader from "./Formheader";
-import Header from "./Header";
-import SubmitForm from "./QuestionPaper";
-import CenteredTabs from "./Tabs";
-import Templates from "./Templates";
-import User_form from "./user_form";
+import Formheader from "./components/Formheader";
+import Header from "./components/Header";
+import SubmitForm from "./components/QuestionPaper";
+import CenteredTabs from "./components/Tabs";
+import Templates from "./components/Templates";
+import User_form from "./components/user_form";
 
 function App() {
   return (

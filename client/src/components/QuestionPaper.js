@@ -4,7 +4,7 @@ import { Button, Typography } from "@material-ui/core";
 import { useParams } from "react-router";
 import axios from "axios";
 
-import "./user_form.css";
+import "../css/user_form.css";
 function SubmitForm() {
   // var {id} = useParams();
 

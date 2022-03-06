@@ -11,7 +11,7 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import PropTypes from "prop-types";
 import { GrClose } from "react-icons/gr";
-import "./Alert.css";
+import "./css/Alert.css";
 
 import { makeStyles } from "@material-ui/core/styles";
 
