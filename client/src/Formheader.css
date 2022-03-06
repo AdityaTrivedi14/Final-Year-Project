@@ -68,6 +68,14 @@
 .MuiFormControlLabel-root .MuiButton-label {
   color: #3f7e05 !important;
 }
+.dialog_footer_left{
+  color: #3f7e05 !important;
+}
+.MuiButtonBase-root .MuiButton-label{
+  /* background-color: #3f7e05 !important; */
+  text-emphasis-color: #3f7e05;
+  
+}
 /* .add_question_body input[type="radio"] {
   color: #3f7e05;
   background-color: #3f7e05;
