@@ -16,7 +16,7 @@ function Card({name}) {
     }
     return (
         <div className="doc_card" onClick={()=>{
-            navigate_to(name)
+            navigate(name)
         }}>
              <img src={doc_image} className="doc_card_image"></img>
              <div className="doc_card_content">
