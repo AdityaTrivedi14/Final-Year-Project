@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { IconButton } from "@material-ui/core";
 import "./Templates.css";
-import blank from "./forms-blank-googlecolors.png";
-import contact from "./contact.png";
+import blank from "./blank.svg";
 import { useNavigate } from "react-router-dom";
 import uuid from "react-uuid";
 import axios from "axios";
 
 import UnfoldMoreIcon from "@material-ui/icons/UnfoldMore";
-import MoreVertIcon from "@material-ui/icons/MoreVert";
 function Templates() {
   const navigate = useNavigate();
 
@@ -37,28 +34,13 @@ function Templates() {
     <div className="template_section">
       <div className="template_top">
         <div className="template_left">
-          <p style={{ color: "#202124", fontSize: "16px" }}>Start a new form</p>
-        </div>
-        <div className="template_right">
-          <div className="gallery_button">
-            Template gallery
-            <UnfoldMoreIcon fontSize="small" />
-          </div>
-          <IconButton>
-            <MoreVertIcon fontSize="small" />
-          </IconButton>
+          <p style={{ color: "#e5ffcc", fontSize: "18px" }}>Start a new form</p>
         </div>
       </div>
       <div className="template_body">
         <div className="card" onClick={createform}>
           <img src={blank} className="card_image" style={{}} />
           <p className="title">Blank</p>
-        </div>
-        <div className="card">
-          <img src={contact} className="card_image" style={{}} />
-          <p className="title" style={{ fontSize: "small" }}>
-            Contact Information
-          </p>
         </div>
       </div>
     </div>

@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Formheader from "./Formheader";
 import Header from "./Header";
 import SubmitForm from "./QuestionPaper";
-import Question_form from "./Question_form";
 import CenteredTabs from "./Tabs";
 import Templates from "./Templates";
 import User_form from "./user_form";
