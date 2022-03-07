@@ -24,7 +24,7 @@ const reducer = (state, action) => {
   console.log(action);
 
   switch (action.type) {
-    case actionTypes.SET_QUESTION:
+    case actionTypes.SET_QUESTIONs:
       return {
         ...state,
         questions: action.questions,
