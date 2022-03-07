@@ -1,5 +1,5 @@
 import React from "react";
-import "./Question_form.css";
+import "./css/Question_form.css";
 
 import CropOriginalIcon from "@material-ui/icons/CropOriginal";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";

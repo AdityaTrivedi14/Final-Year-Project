@@ -34,7 +34,7 @@ import FormControlLabel from "@material-ui/core/FormControlLabel";
 import DragIndicatorIcon from "@material-ui/icons/DragIndicator";
 
 import { useStateValue } from "./StateProvider";
-import { actionTypes } from "./reducer";
+import { actionTypes } from "./reducer/useReducer";
 import { useParams } from "react-router";
 import axios from "axios";
 
