@@ -1,5 +1,6 @@
 import React, { createContext, useReducer } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 import Formheader from "./components/Formheader";
 import Header from "./components/Header";
