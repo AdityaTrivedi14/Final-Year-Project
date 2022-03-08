@@ -64,3 +64,29 @@ html {
   color: #303030;
   font-size: 14px;
 }
+
+/* Form Header Centered Tabs */
+
+.MuiTabs-root {
+  background-color: #333333;
+}
+.MuiTabs-root button {
+  color: #b4f74c;
+}
+.MuiTabs-root button:active {
+  color: #b4f74c;
+}
+.MuiTabs-root button {
+  color: #6daf0a;
+}
+.MuiTabs-root button.Mui-selected {
+  color: #b4f74c;
+}
+.MuiTabs-indicator,
+.PrivateTabIndicator-colorPrimary-5 {
+  background-color: #b4f74c !important;
+}
+.MuiButton-containedPrimary {
+  background: linear-gradient(45deg, #3f7e05, #b4f74c) !important;
+  /* color: #0e1015 !important; */
+}

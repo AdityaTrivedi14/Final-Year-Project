@@ -1,11 +1,11 @@
 import { IconButton } from "@material-ui/core";
 import React from "react";
-import "../css/Header.css";
+import "../css/Navbar.css";
 import Logo from "../assets/logo1.svg";
 import Avatar from "@material-ui/core/Avatar";
 import avatarimage from "../assets/2.jpg";
 
-function Header() {
+const Navbar = () => {
   return (
     <div className="header">
       <div className="header_info">
@@ -24,6 +24,6 @@ function Header() {
       </div>
     </div>
   );
-}
+};
 
-export default Header;
+export default Navbar;

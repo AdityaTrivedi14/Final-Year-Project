@@ -2,14 +2,15 @@ import React, { createContext, useReducer } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
-import Formheader from "./components/Formheader";
-import Header from "./components/Header";
+// import Formheader from "./components/Formheader";
+// import Header from "./components/Header";
 import SubmitForm from "./components/QuestionPaper";
 import CenteredTabs from "./components/Tabs";
 import Templates from "./components/Templates";
 import User_form from "./components/user_form";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
+import Navbar from "./components/Navbar";
 import { initialState, reducer } from "./reducer/userReducer";
 
 export const UserContext = createContext();
@@ -24,7 +25,7 @@ const Routing = () => {
             path="/form/:id"
             element={
               <>
-                <Formheader /> <CenteredTabs />
+                <CenteredTabs />
               </>
             }
           />
@@ -39,7 +40,6 @@ const Routing = () => {
             path="/"
             element={
               <>
-                <Header />
                 <Templates />
               </>
             }
@@ -56,6 +56,7 @@ const App = () => {
   return (
     <>
       <UserContext.Provider value={{ state, dispatch }}>
+        <Navbar />
         <Routing />
       </UserContext.Provider>
     </>
