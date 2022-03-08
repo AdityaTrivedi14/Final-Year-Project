@@ -38,7 +38,7 @@ function Templates() {
         </div>
       </div>
       <div className="template_body">
-        <div className="card" onClick={createform}>
+        <div className="create-card" onClick={createform}>
           <img src={blank} className="card_image" style={{}} />
           <p className="title">Blank</p>
         </div>

@@ -192,20 +192,19 @@
 
 .question_edit {
   background-color: #0e1015;
-  display: flex;
-  flex-direction: column;
   margin-right: 12px;
   margin-top: 10px;
   margin-bottom: 0;
   padding: 1px;
   border-radius: 3px;
   height: 180px;
-  width: 35px;
+  width: 45px;
 }
 
 .edit {
   color: #5f6368;
-  padding: 8px 5px;
+  padding: 0;
+  height: 35px !important;
 }
 
 .saved_questions {

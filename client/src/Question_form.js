@@ -745,9 +745,6 @@ function Question_form() {
                           onClick={addMoreQuestionField}
                           className="edit"
                         />
-                        <OndemandVideoIcon className="edit" />
-                        <CropOriginalIcon className="edit" />
-                        <TextFieldsIcon className="edit" />
                       </div>
                     ) : (
                       ""
