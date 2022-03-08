@@ -10,11 +10,11 @@ import Templates from "./components/Templates";
 import User_form from "./components/user_form";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
-import { initialState, reducer } from "./reducer/useReducer";
+import { initialState, reducer } from "./reducer/userReducer";
 
 export const UserContext = createContext();
 
-function App() {
+const Routing = () => {
   return (
     <div className="app">
       <Router>
@@ -48,6 +48,18 @@ function App() {
       </Router>
     </div>
   );
-}
+};
+
+const App = () => {
+  const [state, dispatch] = useReducer(reducer, initialState);
+
+  return (
+    <>
+      <UserContext.Provider value={{ state, dispatch }}>
+        <Routing />
+      </UserContext.Provider>
+    </>
+  );
+};
 
 export default App;
