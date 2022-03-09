@@ -11,6 +11,7 @@ import User_form from "./components/user_form";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Navbar from "./components/Navbar";
+import Logout from "./components/Logout";
 import { initialState, reducer } from "./reducer/userReducer";
 
 export const UserContext = createContext();
@@ -20,30 +21,15 @@ const Routing = () => {
     <div className="app">
       <Router>
         <Routes>
-          <Route
-            exact
-            path="/form/:id"
-            element={
-              <>
-                <CenteredTabs />
-              </>
-            }
-          />
+          <Route exact path="/form/:id" element={<CenteredTabs />} />
 
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/response" element={<User_form />} />
           <Route exact path="/submitted" element={<SubmitForm />} />
+          <Route exact path="/logout" element={<Logout />} />
 
-          <Route
-            exact
-            path="/"
-            element={
-              <>
-                <Templates />
-              </>
-            }
-          />
+          <Route exact path="/" element={<Templates />} />
         </Routes>
       </Router>
     </div>
